@@ -1,0 +1,92 @@
+body {
+    background-color:lightblue;
+}
+
+header {
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-light {
+   background-color:  white;
+}
+
+.create-post {
+    margin-left: auto;
+}
+
+.nav-pills > a:active {
+    background-color: gray;
+}
+
+
+#text-area {
+    border-color: black;
+    width: 100%;
+}
+
+#instagram-content {
+    background-color: white;
+}
+
+#modal-call-button, #modal-button-primary{
+    background-color: green;
+    color: white;
+    border: 1px solid #bbbbbb;
+}
+
+#modal-button-secondary {
+    background-color: #dddddd;
+    color: black;
+    border: 1px solid #bbbbbb;
+}
+
+.card-body {
+    background-color: green;
+    padding:0px !important;
+}
+
+.card-body > div {
+    margin: 0px;
+    width: 100%;
+}
+
+.img-photo {
+    width: 100%;
+    height: auto;
+}
+
+.card-body > p {
+    padding:15px;
+    padding-bottom: 0px;
+}
+
+.form-icons {
+    display: flex;
+}
+
+.card-img-top{
+    padding: 10px;
+    background-color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.form-icons > div{
+    background:transparent;
+    border-radius: 5px;
+    width: 27px;
+    height: 27px;
+    margin-right: 7px;
+    text-align: center;
+    border: 1px solid #bbbbbb;
+    padding-left: 4px;
+}
+
+.fa-form {
+    background-color: transparent;
+    padding-right: 10px;
+}
