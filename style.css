@@ -44,7 +44,7 @@ header {
 }
 
 .card-body {
-    background-color: green;
+    background-color: transparent;
     padding:0px !important;
 }
 
@@ -53,9 +53,12 @@ header {
     width: 100%;
 }
 
-.img-photo {
-    width: 100%;
-    height: auto;
+.card-img-top{
+    padding: 10px;
+    background-color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 .card-body > p {
@@ -63,16 +66,17 @@ header {
     padding-bottom: 0px;
 }
 
-.form-icons {
-    display: flex;
+.card {
+    margin-bottom:20px;
 }
 
-.card-img-top{
-    padding: 10px;
-    background-color: white;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
+.img-photo {
+    width: 100%;
+    height: auto;
+}
+
+.form-icons {
+    display: flex;
 }
 
 .form-icons > div{
@@ -89,4 +93,27 @@ header {
 .fa-form {
     background-color: transparent;
     padding-right: 10px;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-img {
+    padding:5px;
+    background-color: transparent;
+}
+
+#pills-link1-tab  {
+    background-color: gray;
+}
+
+#pills-profile-tab {
+    color: gray;
 }
